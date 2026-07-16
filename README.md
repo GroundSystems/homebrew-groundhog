@@ -1,20 +1,20 @@
-# Homebrew groundctl
+# Homebrew Groundhog
 
-Homebrew tap for the `groundctl` CLI.
+Homebrew tap for Groundhog.
 
 ## Install
 
 ```sh
-brew install GroundSystems/groundctl/groundctl
+brew install GroundSystems/groundhog/groundhog
 ```
 
 Or tap the repository first:
 
 ```sh
-brew tap GroundSystems/groundctl
-brew install groundctl
+brew tap GroundSystems/groundhog
+brew install groundhog
 ```
 
-`Formula/groundctl.rb` is generated from immutable release archives published in
-[`GroundSystems/groundctl`](https://github.com/GroundSystems/groundctl). Do not
+`Formula/groundhog.rb` is generated from immutable release archives published in
+[`GroundSystems/groundhog`](https://github.com/GroundSystems/groundhog). Do not
 edit the formula manually.
