@@ -16,5 +16,5 @@ brew install groundhog
 ```
 
 `Formula/groundhog.rb` is generated from immutable release archives published in
-[`GroundSystems/groundhog`](https://github.com/GroundSystems/groundhog). Do not
+[`GroundSystems/groundhog-releases`](https://github.com/GroundSystems/groundhog-releases/releases). Do not
 edit the formula manually.
