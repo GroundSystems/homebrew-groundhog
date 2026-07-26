@@ -1,9 +1,9 @@
 class Groundhog < Formula
   desc "Append-only event log with a DuckDB warehouse projection"
   homepage "https://groundhog.so"
-  url "https://github.com/GroundSystems/groundhog-releases/releases/download/v0.1.0/groundhog-0.1.0-aarch64-apple-darwin.tar.gz"
-  version "0.1.0"
-  sha256 "6a33c2db8127650086c013291373eda3dee0fea6f3edf04ed3310f97ad259e53"
+  url "https://github.com/GroundSystems/groundhog-releases/releases/download/v0.1.1/groundhog-0.1.1-aarch64-apple-darwin.tar.gz"
+  version "0.1.1"
+  sha256 "a63bd43bb72f0685351f76ed2b335a209933773296cf37f312da1a05d211057f"
   license "FSL-1.1-ALv2"
 
   depends_on arch: :arm64
