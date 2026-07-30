@@ -1,5 +1,5 @@
 class Groundhog < Formula
-  desc "Append-only event log with a DuckDB warehouse projection"
+  desc "Durable append-only event log with replay, follow, and streams"
   homepage "https://groundhog.so"
   url "https://github.com/GroundSystems/groundhog/releases/download/v0.1.1/groundhog-0.1.1-aarch64-apple-darwin.tar.gz"
   version "0.1.1"
