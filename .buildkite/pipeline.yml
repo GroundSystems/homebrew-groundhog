@@ -6,6 +6,7 @@ steps:
     env:
       HOMEBREW_NO_ANALYTICS: "1"
       HOMEBREW_NO_AUTO_UPDATE: "1"
+      HOMEBREW_NO_INSTALL_CLEANUP: "1"
     timeout_in_minutes: 20
     command: |
       set -euo pipefail
@@ -13,3 +14,10 @@ steps:
       brew tap GroundSystems/groundhog "$$PWD"
       brew style GroundSystems/groundhog/groundhog
       brew audit --strict --online GroundSystems/groundhog/groundhog
+      cleanup() {
+        brew uninstall --force GroundSystems/groundhog/groundhog >/dev/null 2>&1 || true
+      }
+      trap cleanup EXIT
+      cleanup
+      brew install --formula GroundSystems/groundhog/groundhog
+      brew test GroundSystems/groundhog/groundhog
