@@ -1,8 +1,8 @@
 class Groundhog < Formula
   desc "Durable append-only event log with replay, follow, and streams"
   homepage "https://groundhog.so"
-  url "https://github.com/GroundSystems/groundhog/releases/download/v0.1.1/groundhog-0.1.1-aarch64-apple-darwin.tar.gz"
-  sha256 "a63bd43bb72f0685351f76ed2b335a209933773296cf37f312da1a05d211057f"
+  url "https://github.com/GroundSystems/groundhog/releases/download/v0.2.0/groundhog-0.2.0-aarch64-apple-darwin.tar.gz"
+  sha256 "ac4799066e76a0f21496182660a8fc74c2ab3c45d68e5cceb7be10c07866cab5"
   license "FSL-1.1-ALv2"
 
   depends_on arch: :arm64
